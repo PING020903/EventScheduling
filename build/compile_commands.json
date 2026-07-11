@@ -1,0 +1,32 @@
+[
+{
+  "directory": "F:/cmake_study/EventScheduling/build",
+  "command": "F:\\mingw64\\bin\\cc.exe -IF:/cmake_study/EventScheduling/include -IF:/cmake_study/EventScheduling/thirdparty/ringBuffer/include -IF:/cmake_study/EventScheduling/thirdparty/memoryGroundPlus/include -IF:/cmake_study/EventScheduling/thirdparty/c-linked-list/include -g -std=gnu99 -o CMakeFiles\\EventScheduling.dir\\sources\\EventSchedul.c.obj -c F:\\cmake_study\\EventScheduling\\sources\\EventSchedul.c",
+  "file": "F:/cmake_study/EventScheduling/sources/EventSchedul.c",
+  "output": "F:/cmake_study/EventScheduling/build/CMakeFiles/EventScheduling.dir/sources/EventSchedul.c.obj"
+},
+{
+  "directory": "F:/cmake_study/EventScheduling/build",
+  "command": "F:\\mingw64\\bin\\cc.exe -IF:/cmake_study/EventScheduling/include -IF:/cmake_study/EventScheduling/thirdparty/ringBuffer/include -IF:/cmake_study/EventScheduling/thirdparty/memoryGroundPlus/include -IF:/cmake_study/EventScheduling/thirdparty/c-linked-list/include -g -std=gnu99 -o CMakeFiles\\EventScheduling.dir\\sources\\main.c.obj -c F:\\cmake_study\\EventScheduling\\sources\\main.c",
+  "file": "F:/cmake_study/EventScheduling/sources/main.c",
+  "output": "F:/cmake_study/EventScheduling/build/CMakeFiles/EventScheduling.dir/sources/main.c.obj"
+},
+{
+  "directory": "F:/cmake_study/EventScheduling/build",
+  "command": "F:\\mingw64\\bin\\cc.exe -IF:/cmake_study/EventScheduling/include -IF:/cmake_study/EventScheduling/thirdparty/ringBuffer/include -IF:/cmake_study/EventScheduling/thirdparty/memoryGroundPlus/include -IF:/cmake_study/EventScheduling/thirdparty/c-linked-list/include -g -std=gnu99 -o CMakeFiles\\EventScheduling.dir\\sources\\test.c.obj -c F:\\cmake_study\\EventScheduling\\sources\\test.c",
+  "file": "F:/cmake_study/EventScheduling/sources/test.c",
+  "output": "F:/cmake_study/EventScheduling/build/CMakeFiles/EventScheduling.dir/sources/test.c.obj"
+},
+{
+  "directory": "F:/cmake_study/EventScheduling/build",
+  "command": "F:\\mingw64\\bin\\cc.exe -IF:/cmake_study/EventScheduling/include -IF:/cmake_study/EventScheduling/thirdparty/ringBuffer/include -IF:/cmake_study/EventScheduling/thirdparty/memoryGroundPlus/include -IF:/cmake_study/EventScheduling/thirdparty/c-linked-list/include -g -std=gnu99 -o CMakeFiles\\EventScheduling.dir\\thirdparty\\memoryGroundPlus\\sources\\memGroundP.c.obj -c F:\\cmake_study\\EventScheduling\\thirdparty\\memoryGroundPlus\\sources\\memGroundP.c",
+  "file": "F:/cmake_study/EventScheduling/thirdparty/memoryGroundPlus/sources/memGroundP.c",
+  "output": "F:/cmake_study/EventScheduling/build/CMakeFiles/EventScheduling.dir/thirdparty/memoryGroundPlus/sources/memGroundP.c.obj"
+},
+{
+  "directory": "F:/cmake_study/EventScheduling/build",
+  "command": "F:\\mingw64\\bin\\cc.exe -IF:/cmake_study/EventScheduling/include -IF:/cmake_study/EventScheduling/thirdparty/ringBuffer/include -IF:/cmake_study/EventScheduling/thirdparty/memoryGroundPlus/include -IF:/cmake_study/EventScheduling/thirdparty/c-linked-list/include -g -std=gnu99 -o CMakeFiles\\EventScheduling.dir\\thirdparty\\ringBuffer\\sources\\ringBuffer.c.obj -c F:\\cmake_study\\EventScheduling\\thirdparty\\ringBuffer\\sources\\ringBuffer.c",
+  "file": "F:/cmake_study/EventScheduling/thirdparty/ringBuffer/sources/ringBuffer.c",
+  "output": "F:/cmake_study/EventScheduling/build/CMakeFiles/EventScheduling.dir/thirdparty/ringBuffer/sources/ringBuffer.c.obj"
+}
+]

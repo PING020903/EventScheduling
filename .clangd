@@ -1,0 +1,11 @@
+CompileFlags:
+  Add:
+    - "-std=gnu99"
+    - "--target=x86_64-w64-mingw32"
+    - "-I=f:/cmake_study/EventScheduling/include"
+    - "-I=f:/cmake_study/EventScheduling/thirdparty/ringBuffer/include"
+    - "-I=f:/cmake_study/EventScheduling/thirdparty/memoryGroundPlus/include"
+    - "-I=f:/cmake_study/EventScheduling/thirdparty/c-linked-list/include"
+    - "-isystem=F:/mingw64/include"
+    - "-isystem=F:/mingw64/x86_64-w64-mingw32/include"
+    - "-isystem=F:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include"
