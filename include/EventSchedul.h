@@ -13,9 +13,6 @@ typedef struct EventSchedul_Context EventSchedul_Context;
 
 #define EVTSCHEDUL_TEST 0
 
-#define EVTSCHEDUL_TASKS_MAX 8
-#define EVTSCHEDUL_TASKS_QUEUE_MAX (EVTSCHEDUL_TASKS_MAX * 2)
-
 typedef enum {
     EVTSCHEDUL_OK         = 0,  /* 成功 */
     EVTSCHEDUL_ERR_FAIL,        /* 通用失败 */
@@ -35,7 +32,14 @@ typedef unsigned short EventSchedul_ExecCount; /* 执行次数 */
 #define EVTSCHEDUL_INVALID_EVT    ((EventSchedul_EventId)(0x00u-0x01u))
 #define EVTSCHEDUL_INIT_EVT       ((EventSchedul_EventId)0x0000U)
 #define EVTSCHEDUL_INIT_TASK_ID   ((EventSchedul_TaskId)0)
-#define EVTSCHEDUL_INVALID_TASK_ID ((EventSchedul_TaskId)-1)
+#define EVTSCHEDUL_INVALID_TASK_ID ((EventSchedul_TaskId) - 1)
+
+#define EVTSCHEDUL_TASKS_MAX 8
+#if EVTSCHEDUL_TASKS_MODE == EVTSCHEDUL_STATIC
+#define EVTSCHEDUL_TASKS_QUEUE_MAX (EVTSCHEDUL_TASKS_MAX * 2)
+#else
+#define EVTSCHEDUL_TASKS_QUEUE_MAX 32
+#endif
 
 /*
 * 若短时间内有不同的事件被触发,

@@ -1,3 +1,0 @@
-F:/cmake_study/EventScheduling/build/CMakeFiles/EventScheduling.dir
-F:/cmake_study/EventScheduling/build/CMakeFiles/edit_cache.dir
-F:/cmake_study/EventScheduling/build/CMakeFiles/rebuild_cache.dir
